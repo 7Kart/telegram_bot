@@ -1,0 +1,12 @@
+{
+  "name": "telegram",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "mongoose": "^4.8.1",
+    "node-telegram-bot-api": "^0.26.0"
+  }
+}

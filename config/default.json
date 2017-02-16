@@ -1,0 +1,48 @@
+{
+  "bot":{
+    "telegramToken":"242056318:AAH5zK2pZILrLmBtIxPJtb2zhF9ZMMLBZGE",
+    "commands":[
+      {
+        "text":"getPeopleList",
+        "emodzi":"📖"
+      },
+      {
+        "text":"deleteFromChat",
+        "emodzi":"☠"
+      },
+      {
+        "text":"makeChat",
+        "emodzi":"👥"
+      },
+      {
+        "text":"test",
+        "emodzi":"🔧"
+      },
+      {
+        "text":"help",
+        "emodzi":"❓"
+      }
+    ]
+  },
+  "mongo":{
+    "connectionString":"mongodb://bot:foreverbot@ds023064.mlab.com:23064/telegram_bot",
+    "debug":true
+  },
+  "keyBoard":{
+    "commandList":[
+      [{"text":"Зарегистрироваться в чате", "callback_data":"addToList"},{"text":"ololo", "callback_data":"usersList"}],
+      [{"text":"Список всех", "callback_data":"usersList"}],
+      [{"text":"Помощь", "callback_data":"help"}]
+    ],
+    "singleButton":{
+      "text":"click"
+    },
+    "cusomKeyBoard":{
+      "keyboard":[["Yes","No"],["Maybe"],["1","2","3"]],
+      "one_time_keyboard":false
+    }
+
+  }
+
+}
+
